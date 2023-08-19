@@ -1,0 +1,180 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.alert { /* Red */
+  color: #5e01e0;
+  font-size:12pt;
+  font-weight:bold;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+body {
+  background: url("D:\DEGREE\sem 6\e_kissan\e_kishaan\resources\images\background.jpg") center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 12pt;
+  font-family: "Dosis";
+  color: #2A293E;
+}
+
+.signup_login{
+  margin-top:5%;
+  padding: 50px 100px;
+  background-color:#bee8b0c2;
+  width:35%;
+  border: none;
+  border: 1px solid rgb(147, 224, 13);
+}
+
+label, input {
+  display: block;
+  width: 100%;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-weight:bold;
+  color:#5e01e0;
+}
+
+.title{
+  margin-top:2%;
+  margin-bottom:3%;
+  display: flex;
+  font-size: 20pt;
+  color: #4b01e0df;
+  justify-content: center;
+}
+
+.h3{
+  color: white;
+  line-height: 30pt;
+  font-size: 13pt;
+}
+
+/*span {
+  font-size: 8pt;
+}*/
+
+em {
+  color: #4B01E0;
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background: #f8f4e5;
+  padding-left: 5px;
+  outline: none;
+  margin-bottom: 24pt;
+  font-weight:normal;
+}
+.pass{
+  float: left;
+  line-height: normal;
+  display: flex;
+}
+
+.forgetpass{
+    float: right;
+    color:#4B01E0;
+}
+
+button {
+  display: block;
+  float: right;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  /*background: #f45702;*/
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+
+input[type=text]:focus {
+  background-color: #D6B6FF; /*#3CBC8D;*/
+  
+}
+
+input[type=email]:focus {
+  background-color: #D6B6FF;
+  /*color:black;*/
+}
+
+input[type=password]:focus {
+  background-color: #D6B6FF;
+  /*color:black;*/
+}
+
+input[type=tel]:focus {
+  background-color: #D6B6FF;
+  /*color:black;*/
+}
+
+
+button{
+  display: block;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #4B01E0 ; /*skyblue*/
+  color: white;
+  letter-spacing: 1px;
+  transition: 0.2s all ease-in-out;
+  border-bottom : 2px solid transparent;
+  outline: none;
+}
+
+
+.dropdown{
+  background: #f8f4e5;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border: 1px solid black;
+}
+
+.dropdown select{
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  height: 40px;
+  border: none;
+  border: 1px solid #D6B6FF;
+  background: #f8f4e5;
+}
+
+button:hover {
+  background: inherit;
+  color: black;/*skyblue;*/
+  border: 2px solid #4B01E0 ;
+}
+
+::selection {
+  background: rgb(219, 185, 247);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #6bd4b1;
+  -webkit-text-fill-color: #2A293E;
+  -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
